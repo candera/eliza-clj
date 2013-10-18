@@ -8,8 +8,8 @@ implementation of [Eliza](http://en.wikipedia.org/wiki/ELIZA).
 Add a dependency on `[org.craigandera/eliza-clj "0.1.0"]` and write
 code like the following:
 
-```
-(require '[eliza-clj.engine :refer all])
+```clojure
+(require '[eliza-clj.engine :refer :all])
 
 (def e (create-engine))
 
